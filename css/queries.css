@@ -1,0 +1,77 @@
+@media screen and (min-width: 700px){
+      .main, .feature, .end{
+        display: flex;
+        flex-flow: row-reverse;
+      }
+      .end{
+        display: flex;
+        flex-flow: row;
+        padding: 20px
+      }
+      .mn1, .mn2, .ft1, .ft2, .en1, .en{
+        flex-basis: 50%;
+        text-align: left;
+      }
+      .en2{
+        padding: 10px;
+        text-align:left;
+      }
+
+      .ft1{
+        padding: 40px 10px;
+      }
+     
+
+      .ft2{
+        padding: 70px 10px;
+      }
+
+      .green{
+          margin: 10px 5px
+      }
+
+      .quote{
+        margin: 10px 5px
+      }
+      input, button{
+        width: 300px;
+        height:15px;
+        border-radius: 3px;
+      }
+
+      button{
+        width: 150px;
+        height: 30px;
+      }
+
+      .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+      }
+
+      .fr1{
+        grid-column:1/2;
+      }
+      .fr2{
+        grid-column: 2/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+      }
+      .a{
+        grid-column: 1/2;
+      }
+      .b{
+        grid-column: 2/3; 
+      }
+      .fr3{
+        grid-column: 3/4;
+      }
+    
+      .nav>ul>li{
+          width:70px;
+          margin-right: 4%;
+      }
+      
+           
+}
